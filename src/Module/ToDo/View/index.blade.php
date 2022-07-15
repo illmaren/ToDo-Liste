@@ -26,7 +26,7 @@
             <div class="p-2 bd-highlight border">
                 {{ $todo->name }}<br>
                 {{ $todo->message }}
-                <form action="{{route('todo.destroy',[$todo->id])}}" method="POST">
+                <form action="{{route('destroy',[$todo->id])}}" method="POST">
                     @method('DELETE')
                     @csrf
                     <button class="btn btn-danger btn-sm" type="submit">löschen</button>

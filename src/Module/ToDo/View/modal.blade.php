@@ -6,7 +6,7 @@
                 <h5 class="modal-title" id="exampleModalLabel">Neues Todo erstellen</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schliessen"></button>
             </div>
-            <form method="post" action="{{ route('todo.store') }}">
+            <form method="post" action="{{ route('store') }}">
                 <div class="modal-body">
                     @csrf
                     <div class="input-group mb-3">
