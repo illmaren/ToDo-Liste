@@ -14,8 +14,4 @@ use Service\Module\ToDo\Controller\TodoController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::resource('/todo', TodoController::class);
+Route::resource('/', TodoController::class);
