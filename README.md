@@ -4,6 +4,6 @@
     </a>
 
 # Probearbeit / Aufgabe
-Aufrufbar unter <a href="https://hausperfekt.illmaren.de/todo">https://todo.illmaren.de/todo</a>
+Aufrufbar unter <a href="https://todo.illmaren.de">https://todo.illmaren.de/</a>
 </p>
 
